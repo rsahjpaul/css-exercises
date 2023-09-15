@@ -1,0 +1,25 @@
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.red {
+    background-color:lightcoral ;
+}
+
+.smallest {
+
+    font-size: 15px;
+}
+
+.medium {
+
+    font-size:25px;
+}
+
+#two { color:blue;
+font-size: 36px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-weight: bolder;
+    font-size: 25px;
+}

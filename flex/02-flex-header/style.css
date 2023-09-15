@@ -1,6 +1,8 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -9,6 +11,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  align-items: center;
+  display: flex;
+  margin: 10px;
 }
 
 ul {
@@ -22,4 +27,31 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links {
+  justify-content: space-between;
+  width:100vh;
+  display: flex;
+  align-items: center;
+  margin:25px;
+}
+
+.left-container {
+  display: flex;
+  width:40vh;
+
+}
+
+.right-container {
+  display: flex;
+  width:40vh;
+}
+
+.right-links {
+  justify-content: space-between;
+  width:100vh;
+  display: flex;
+  align-items: center;
+  margin:25px;
 }

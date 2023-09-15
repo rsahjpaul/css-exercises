@@ -1,0 +1,20 @@
+.button {
+
+    height: 40px;
+    font-size: 20px;
+
+}
+
+.left {
+    color: white;
+    background-color: black;
+
+
+}
+
+
+.right {
+color: black;
+background-color: yellow;
+
+}
